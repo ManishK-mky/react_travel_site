@@ -12,7 +12,7 @@ function Navbar() {
         <Link to="/blog" className="cursor-pointer">Blog</Link>
         <Link to="/about" className="cursor-pointer">About us</Link>
       </div>
-      <div className="pr-[30px] text-xl"><IoIosLogIn /></div>
+      <Link to="/signup" className="pr-[30px] text-xl" ><IoIosLogIn /></Link>
     </div>
   )
 }
